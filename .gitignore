@@ -1,0 +1,16 @@
+node_modules/
+cdk.out/
+
+# Local/editor noise
+.DS_Store
+.env
+.env.*
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Go/Lambda build output
+aws-lambda-go/lambdas/aws-lambda-go
+aws-lambda-go/lambdas/bootstrap
